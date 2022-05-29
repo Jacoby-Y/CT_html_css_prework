@@ -94,9 +94,20 @@ body#home {
 	grid-template-rows: 1fr 1fr;
 }
 #wrapper div#third img {
-	width: 80%;
-	height: 80%;
+	width: calc(100% - 1.5rem);
+	height: 100%;
 	object-fit: contain;
+}
+#wrapper div#third #pic-desc-1 {
+	align-self: end;
+	font-size: 1.5rem;
+	padding: 1rem 1.5rem;
+}
+#wrapper div#third #pic-desc-2 {
+	align-self: start;
+	font-size: 1.5rem;
+	padding: 1rem 1.5rem;
+	text-align: right;
 }
 #wrapper div#third #pic-1 {
 	object-position: right bottom; 
